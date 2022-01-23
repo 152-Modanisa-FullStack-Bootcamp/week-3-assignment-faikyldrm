@@ -20,6 +20,7 @@ export const mutations = {
 export const actions = {
   increment(context, payload) {
     context.commit('addToCount', 1)
+
   },
   decrement(context, payload) {
     context.commit('addToCount', -1)
